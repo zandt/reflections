@@ -24,9 +24,15 @@ organized? How would branches help?
 	Can be merged with the master branch later on.
 
 How do the diagrams help you visualize the branch structure?
+	You can see all the branches in a diagram, whereas git log only sees the parent commits
+	to the current checkout.
+	
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	Changes from both branches are merged into a new commit.
+	Because all commits from both branches will be preserved.
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
